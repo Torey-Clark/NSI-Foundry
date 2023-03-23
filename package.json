@@ -1,0 +1,28 @@
+{
+  "name": "nsi-foundry",
+  "version": "1.0.0",
+  "description": "A graphical interface for creating installers through NSIS",
+  "main": "index.js",
+  "dependencies": {
+    "electron": "^23.2.0",
+    "electron-webpack": "^2.8.2",
+    "webpack": "^5.76.3"
+  },
+  "devDependencies": {
+    "json5": "^2.2.3"
+  },
+  "scripts": {
+    "dev": "electron-webpack dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torey-Clark/NSI-Foundry.git"
+  },
+  "author": "Torey Clark",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Torey-Clark/NSI-Foundry/issues"
+  },
+  "homepage": "https://github.com/Torey-Clark/NSI-Foundry#readme"
+}
